@@ -11,10 +11,3 @@ const playTune = (key) => {
 pianoKeys.forEach((key) => {
   key.addEventListener("click", () => playTune(key.dataset.key));
 });
-
-//volume
-const handleVolume = (e) => {
-  audio.volume = e.target.value;
-};
-
-volumeSlider.addEventListener("input", handleVolume);
