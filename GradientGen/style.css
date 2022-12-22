@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   height: 100vh;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+   
+
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 15vw;
+    margin-top: 20px;
+    height: 5vh;
+    color: white;
+    
+}
+
+#copy{
+   padding: 10px;
+  
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+#gradient{
+  height: 50%;
+  width: 50%;
+  border-radius: 10px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  
+  background-color: rgb(236, 236, 236);
+  font-family: monospace;
+}
